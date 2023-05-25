@@ -9,5 +9,5 @@ import com.devsuperior.dslist.entities.Game;
 // somente fazendo o extends da JpaRepository é possível acessar a camada do db
 public interface GameRepository extends JpaRepository<Game, Long>{
 
-	
+	 
 }
