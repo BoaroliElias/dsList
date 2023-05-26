@@ -15,6 +15,7 @@ public interface GameRepository extends JpaRepository<Game, Long>{
 
 	//jogando consulta no banco de dados no repository, pois é ele que acessa o banco de dados 
 	
+	//postgres nao aceita apostofros pra ALIAS, aceita aspas duplas
 	@Query(nativeQuery = true, value = """
 			SELECT tb_game.id, tb_game.title, tb_game.game_year AS `year`, tb_game.img_url AS imgUrl,
 			tb_game.short_description AS shortDescription, tb_belonging.position
