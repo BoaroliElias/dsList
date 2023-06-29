@@ -10,10 +10,7 @@ public class GameMinDTO {
 	private Integer year;
 	private String imgUrl;
 	private String shortDescription;
-	
-	private GameMinDTO() {
-		
-	}
+
 	
 	public GameMinDTO(GameMinProjection prjection) {
 		id = prjection.getId();
