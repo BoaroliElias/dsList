@@ -19,7 +19,7 @@ import com.devsuperior.dslist.services.GameService;
 // é a entrada da API, o controlador vai disponibilizar a API da aplicação, é a "maçaneta da porta"
 // o front chama o backend pelo controlador, que chama o service, que chama  repository(banco de dados)
 // aonde customiza o formado da saída da sua API
-
+//
 @RestController
 @RequestMapping(value = "/lists")
 public class GameListController {
