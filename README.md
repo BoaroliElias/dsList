@@ -32,7 +32,7 @@ Essas foram os endpoints disponibilizados e testados via Postman.
 - Projections para consultas SQL
 - Cors
 - Docker
-- Deply CI/CD com Railway
+- Deploy CI/CD com Railway
 
 # Modelo conceitual
 
